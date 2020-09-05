@@ -1,0 +1,312 @@
+Package-Menu:
+  name: '&7Confirm Purchases'
+
+Messages:
+  Deny-Package: '&cYou have denied the package'
+  No-Package: '&cThat package does not exist'
+  Give-Package: '&7You have given the {package} to {target}'
+  Give-Target-Package: '&7You have been given a package do &a/confirm to view it'
+  On-Join: '&7You have a package waiting you'
+
+
+Settings:
+  lore:
+    - '&aLeft Click &fto accept this Buycraft Package'
+    - ''
+    - '&c&l(!) &cRemember to have an open inventory'
+    - '&cslot when confirming items or vouchers'
+    - ''
+    - '&e&lNote&8: &fIf you do &c&nNOT&f wish to accept'
+    - '&fthis package, please right-click it'
+    - ''
+    - '&4&lWarning&8: &fBy accepting this package'
+    - '&fyou claim full responsibility for the'
+    - '&fpayment and you will be banned if it is'
+    - '&fflagged as a fraudulent or if the payment'
+    - '&fis charged-back by PayPal'
+    - ''
+    - '&d&lPID: &7{NAME}'
+    - '&d&lTID: &7{transaction}'
+
+Packages:
+  STAR3909127:
+    material: "NETHER_STAR"
+    name: "&eStar Rank Voucher"
+    commands:
+      - 'voucher give star 1 {PLAYER}'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &eStar Rank'
+      - '&8&m------------------------------------------'
+  COMET3955430:
+    material: "NETHER_STAR"
+    name: "&fComet Rank Voucher"
+    commands:
+      - 'voucher give comet 1 {PLAYER}'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &fComet Rank'
+      - '&8&m------------------------------------------'
+  NOVA3955444:
+    material: "NETHER_STAR"
+    name: "&3Nova Rank Voucher"
+    commands:
+      - 'voucher give nova 1 {PLAYER}'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &3Nova Rank'
+      - '&8&m------------------------------------------'
+  ECLIPSE3955446:
+    material: "NETHER_STAR"
+    name: "&aEclipse Rank Voucher"
+    commands:
+      - 'voucher give eclipse 1 {PLAYER}'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &aEclipse Rank'
+      - '&8&m------------------------------------------'
+  LUNAR3955447:
+    material: "NETHER_STAR"
+    name: "&dLunar Rank Voucher"
+    commands:
+      - 'voucher give lunar 1 {PLAYER}'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &dLunar Rank'
+      - '&8&m------------------------------------------'
+  RIFT3955448:
+    material: "NETHER_STAR"
+    name: "&5Rift Rank Voucher"
+    commands:
+      - 'voucher give rift 1 {PLAYER}'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &5Rift Rank'
+      - '&8&m------------------------------------------'
+  RIFT+3955449:
+    material: "NETHER_STAR"
+    name: "&5Rift&d+ Rank Voucher"
+    commands:
+      - 'voucher give rift+ 1 {PLAYER}'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &5Rift&d+ Rank'
+      - '&8&m------------------------------------------'
+  STARUPGRADE1598933:
+    material: "NETHER_STAR"
+    name: "&fComet Rank Upgrade"
+    commands:
+      - 'lp user {PLAYER} parent settrack nebula comet'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &fComet Rank Upgrade'
+      - '&8&m------------------------------------------'
+  COMETUPGRADE1598933:
+    material: "NETHER_STAR"
+    name: "&3Nova Rank Upgrade"
+    commands:
+      - 'lp user {PLAYER} parent settrack nebula nova'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &3Nova Rank Upgrade'
+      - '&8&m------------------------------------------'
+  NOVAUPGRADE1598933:
+    material: "NETHER_STAR"
+    name: "&aEclipse Rank Upgrade"
+    commands:
+      - 'lp user {PLAYER} parent settrack nebula eclipse'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &aEclipse Rank Upgrade'
+      - '&8&m------------------------------------------'
+  ECLIPSEUPGRADE1598933:
+    material: "NETHER_STAR"
+    name: "&dLunar Rank Upgrade"
+    commands:
+      - 'lp user {PLAYER} parent settrack nebula lunar'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &dLunar Rank Upgrade'
+      - '&8&m------------------------------------------'
+  LUNARUPGRADE1598933:
+    material: "NETHER_STAR"
+    name: "&5Rift Rank Upgrade"
+    commands:
+      - 'lp user {PLAYER} parent settrack nebula rift'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &5Rift Rank Upgrade'
+      - '&8&m------------------------------------------'
+  RIFTUPGRADE1598933:
+    material: "NETHER_STAR"
+    name: "&5Rift&d+ Rank Upgrade"
+    commands:
+      - 'lp user {PLAYER} parent settrack nebula rift+'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &5Rift&d+ Rank Upgrade'
+      - '&8&m------------------------------------------'
+  MONTHLYCRATE1598951:
+    material: "BEACON"
+    name: "&dMonthly Crate"
+    commands:
+      - 'amc give {PLAYER} MonthlyCrate 1'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &dMonthly Crate'
+      - '&8&m------------------------------------------'
+  COSMICKEY1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&9Cosmic Key"
+    commands:
+      - 'scrates givekey Cosmic {PLAYER} 1 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &9Cosmic Key'
+      - '&8&m------------------------------------------'
+  SOLARKEY1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&6Solar Key"
+    commands:
+      - 'scrates givekey Solar {PLAYER} 1 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &6Solar Key'
+      - '&8&m------------------------------------------'
+  GALACTICKEY1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&fGalactic Key"
+    commands:
+      - 'scrates givekey Galactic {PLAYER} 1 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &fGalactic Key'
+      - '&8&m------------------------------------------'
+  2KEYBUNDLE1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&d2x Key Bundle"
+    commands:
+      - 'scrates givekey Cosmic {PLAYER} 2 -v'
+      - 'scrates givekey Solar {PLAYER} 2 -v'
+      - 'scrates givekey Galactic {PLAYER} 2 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &d2x Key Bundle'
+      - '&8&m------------------------------------------'
+  5COSMICKEY1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&95x Cosmic Key"
+    commands:
+      - 'scrates givekey Cosmic {PLAYER} 5 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &95x Cosmic Key'
+      - '&8&m------------------------------------------'
+  5SOLARKEY1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&65x Solar Key"
+    commands:
+      - 'scrates givekey Solar {PLAYER} 5 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &65x Solar Key'
+      - '&8&m------------------------------------------'
+  5GALACTICKEY1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&f5x Galactic Key"
+    commands:
+      - 'scrates givekey Galactic {PLAYER} 5 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &f5x Galactic Key'
+      - '&8&m------------------------------------------'
+  3COSMETICKEY1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&93x Cosmetic Key"
+    commands:
+      - 'scrates givekey Cosmetic {PLAYER} 3 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &a3x Cosmetic Key'
+      - '&8&m------------------------------------------'
+  COSMETICKEY1598951:
+    material: "TRIPWIRE_HOOK"
+    name: "&9Cosmetic Key"
+    commands:
+      - 'scrates givekey Cosmetic {PLAYER} 1 -v'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &aCosmetic Key'
+      - '&8&m------------------------------------------'
+  5DISBAND1598968:
+    material: "TNT"
+    name: "&d5 Disbands"
+    commands:
+      - 'is admin givedisbands {PLAYER} 5'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &d5 Disbands'
+      - '&8&m------------------------------------------'
+  HHOE1598968:
+    material: "DIAMOND_HOE"
+    name: "&dHarvester Hoe"
+    commands:
+      - 'rifthoe give {PLAYER} 1'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &dHarvester Hoe'
+      - '&8&m------------------------------------------'
+  OPPICK1598968:
+    material: "DIAMOND_PICKAXE"
+    name: "&6OP Pick"
+    commands:
+      - 'tools give {PLAYER} infusepick'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &6OP Pick'
+      - '&8&m------------------------------------------'
+  RIFTCHEST1598968:
+    material: "ENDER_CHEST"
+    name: "&dRift Chest"
+    commands:
+      - 'ichest give {PLAYER} 1'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &dRift Chest'
+      - '&8&m------------------------------------------'
+  BMFORGE1598968:
+    material: "ENDER_PORTAL_FRAME"
+    name: "&dBlack Market Forge"
+    commands:
+      - 'riftgenerators give {PLAYER} BMForge 1 1'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &dBlack Market Forge'
+      - '&8&m------------------------------------------'
+  CASHFORGE1598968:
+    material: "ENDER_PORTAL_FRAME"
+    name: "&dCash Forge"
+    commands:
+      - 'riftgenerators give {PLAYER} MoneyForge 1 1'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &dCash Forge'
+      - '&8&m------------------------------------------'
+  WEWAND1598968:
+    material: "DIAMOND_AXE"
+    name: "&dWorld Edit Wand"
+    commands:
+      - 'wand give {PLAYER} unlimited'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &dWorld Edit Wand'
+      - '&8&m------------------------------------------'
+  SELLWAND1598968:
+    material: "STICK"
+    name: "&d1.5x Sell Wand"
+    commands:
+      - 'tools give {PLAYER} sell3 1'
+    message:
+      - '&8&m------------------------------------------'
+      - '&aYou have successfully accepted your &d1.5x Sell Wand'
+      - '&8&m------------------------------------------'

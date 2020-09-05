@@ -1,0 +1,8 @@
+name: Riftconfirm
+version: ${project.version}
+main: org.hassan.riftconfirm.RiftConfirm
+authors: [hassan7000]
+description: Buycraft confirm plugin
+commands:
+  bconfirm:
+  confirm:
